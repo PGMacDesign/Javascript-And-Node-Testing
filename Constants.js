@@ -9,8 +9,8 @@ module.exports.job = "Programmer";
 module.exports.addNote = function(name, shouldAppend) {
     console.log(name);
     console.log("Should append == " + shouldAppend);
-}
+};
 
 module.exports.addValues = function(integerX, integerY) {
     return (integerX + integerY);
-}
+};
