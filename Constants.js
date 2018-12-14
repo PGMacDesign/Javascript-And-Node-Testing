@@ -6,7 +6,11 @@ module.exports.lName = "M"
 module.exports.job = "Programmer";
 
 //Functions
-module.exports.addNote = function (name, shouldAppend) {
+module.exports.addNote = function(name, shouldAppend) {
     console.log(name);
     console.log("Should append == " + shouldAppend);
+}
+
+module.exports.addValues = function(integerX, integerY) {
+    return (integerX + integerY);
 }

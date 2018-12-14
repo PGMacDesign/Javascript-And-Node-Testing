@@ -19,6 +19,9 @@ if(false){
 var res = myConstants.addNote("patpat", true);
 console.log(res);
 
+var addedNums = myConstants.addValues(10, -1);
+console.log("addedNums = " +  addedNums)
+
 if(false){
     //Synchronous method
     fs.appendFileSync('pat_text.txt', 'Hi ' + string_username + "!" + "\n"
