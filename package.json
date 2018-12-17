@@ -1,0 +1,22 @@
+{
+  "name": "udemy-tutorials",
+  "version": "1.0.0",
+  "description": "Udemy Tutorials",
+  "main": "Constants.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGMacDesign/Javascript-And-Node-Testing.git"
+  },
+  "author": "PGMacDesign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PGMacDesign/Javascript-And-Node-Testing/issues"
+  },
+  "homepage": "https://github.com/PGMacDesign/Javascript-And-Node-Testing#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

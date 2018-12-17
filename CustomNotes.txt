@@ -1,0 +1,18 @@
+NPM Packages Used:
+    1)  Using lodash - https://lodash.com/
+            This is used for various utility methods
+
+        Command to install:
+            "npm install lodash --save"
+
+        Notes:
+            The "--save" saves it to the package.json file and incorporates it in there automatically. (Under dependencies)
+            Docs: https://lodash.com/docs/4.17.11
+
+
+
+    2)
+
+NPM General Info
+    - The node_modules folder can be added to the .gitignore as it is generated code. To add it back in, simply use "npm install" @ the terminal and it will re-generate the code
+    - 
