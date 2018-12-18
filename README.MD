@@ -13,6 +13,28 @@ Node Package Manager for the various libraries / dependencies used and their res
 
 NPM General Info - The node_modules folder can be added to the .gitignore as it is generated code. To add it back in, simply use <b>"npm install"</b> @ the terminal and it will re-generate the code
 
+
+<!-------- /br -------------->
+
+
+### Nodemon
+
+#### Link
+https://nodemon.io/
+
+#### Purpose
+Used to auto restart project once changes are detected to avoid having it be run constantly from command line. 
+
+#### Install Command:
+"npm install nodemon -g"
+
+#### Notes:
+The "-g" argument is short for "Global" and installs as a global utility on the machine itself as opposed to your project (run it from terminal)
+
+
+<!-------- /br -------------->
+
+
 ### Lodash
 
 #### Link 
@@ -43,6 +65,10 @@ const _ = require('lodash');
 console.log(_.isString(true));
 console.log(_.isString("a String"));
 ```
+
+
+<!-------- /br -------------->
+
 
 
 ### TBD
