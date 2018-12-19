@@ -15,4 +15,4 @@ NPM Packages Used:
 
 NPM General Info
     - The node_modules folder can be added to the .gitignore as it is generated code. To add it back in, simply use "npm install" @ the terminal and it will re-generate the code
-    - 
+    -
