@@ -7,8 +7,8 @@ I say loosely as I will probably augment it quite a bit with other things as I g
 
 # Contents
 
-## NPM
-
+## NPM 
+	
 Node Package Manager for the various libraries / dependencies used and their respective info listed below.
 
 NPM General Info - The node_modules folder can be added to the .gitignore as it is generated code. To add it back in, simply use <b>"npm install"</b> @ the terminal and it will re-generate the code
@@ -23,7 +23,7 @@ NPM General Info - The node_modules folder can be added to the .gitignore as it 
 https://nodemon.io/
 
 #### Purpose
-Used to auto restart project once changes are detected to avoid having it be run constantly from command line.
+Used to auto restart project once changes are detected to avoid having it be run constantly from command line. 
 
 #### Install Command:
 "npm install nodemon -g"
@@ -37,11 +37,11 @@ The "-g" argument is short for "Global" and installs as a global utility on the 
 
 ### Lodash
 
-#### Link
+#### Link 
 
 https://lodash.com/
-
-#### Purpose
+            
+#### Purpose 
 
 This is used for various utility methods
 
@@ -74,6 +74,3 @@ console.log(_.isString("a String"));
 ### TBD
 
 
-
-# Left off at
-https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/t/lecture/5525244?start=0
