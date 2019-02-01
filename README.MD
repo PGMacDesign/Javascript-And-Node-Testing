@@ -26,10 +26,24 @@ https://nodemon.io/
 Used to auto restart project once changes are detected to avoid having it be run constantly from command line. 
 
 #### Install Command:
-"npm install nodemon -g"
+
+```
+npm install nodemon -g
+```
 
 #### Notes:
 The "-g" argument is short for "Global" and installs as a global utility on the machine itself as opposed to your project (run it from terminal)
+
+To run the application / script with Nodemon, use this command:
+
+```
+nodemon app1.js
+```
+
+To kill the nodemon running, use:
+
+'Ctrl + C'
+
 
 
 <!-------- /br -------------->
@@ -47,7 +61,9 @@ This is used for various utility methods
 
 #### Install Command
 
-"npm install lodash --save"
+```
+npm install lodash --save
+```
 
 #### Docs  
 https://lodash.com/docs/4.17.11

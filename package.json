@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PGMacDesign/Javascript-And-Node-Testing#readme",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.9"
   }
 }

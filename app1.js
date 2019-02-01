@@ -1,4 +1,4 @@
-// console.log("stating project App1.js");
+console.log("stating project App1.js");
 
 //File System
 const fs = require('fs');
@@ -12,9 +12,20 @@ const myConstants = require('./Constants.js');
 //Reference to lodash
 const _ = require('lodash');
 
-var user = os.userInfo();
-var string_username = user.username;
+let user = os.userInfo();
+let string_username = user.username;
 
+//For working with input params from the console
+if(true){
+    let userInput = process.argv[process.argv.length - 1];
+    let lowercaseStr = userInput.toLowerCase();
+    console.log("lowercaseStr == " + lowercaseStr);
+    if(lowercaseStr === "add"){
+        console.log("it equals add regardless of case, TRUE");
+    } else {
+        console.log("it does NOT equal add regardless of case, FALSE");
+    }
+}
 
 //For using the lodash module
 if(false){
